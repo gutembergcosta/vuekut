@@ -1,8 +1,10 @@
 <template>
 
-	<div class="area-login grid flex align-content-center flex-wrap mx-auto ">
-		<LoginLogo/>
-		<LoginForm/>	
+	<div class="pagina mx-auto">
+		<div class="area-login grid flex align-content-center flex-wrap mx-auto ">
+			<LoginLogo/>
+			<LoginForm/>	
+		</div>
 	</div>
 	
 </template>
@@ -24,9 +26,6 @@
 
 <style>
 
-.area-login{
-	height: 100vh;
-	width: 90%;
-}
+
 
 </style>

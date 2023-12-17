@@ -16,28 +16,36 @@ button{
 }
 
 .fucsia{
-    color: #d14887;
+    color: #d14887!important;
 }
 .azul{
-    color: #2a4a96;
+    color: #2a4a96!important;
 }
 
 .bg-fucsia{
-    background-color: #d14887;
+    background-color: #d14887!important;
     color: white;    
 }
 
 .bg-azul{
-    background-color: #2a4a96;
+    background-color: #2a4a96!important;
     color: white;    
 }
 
 .bg-fucsia-hover:hover{
-    background-color: #d14887;
+    background-color: #d14887!important;
 }
 
 .bg-azul-hover:hover{
-    background-color: #2a4a96;
+    background-color: #2a4a96!important;
+}
+
+.borda-fucsia-hover:hover{
+    border-color: #d14887!important;
+}
+
+.borda-azul-hover:hover{
+    border-color: #2a4a96!important;
 }
 
 
