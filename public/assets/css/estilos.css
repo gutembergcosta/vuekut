@@ -5,7 +5,37 @@ html, body {
     background: #efefef;
 }
 
+button{
+    border: none;
+    cursor: pointer;
+}
+
 .pagina {
     width: 1200px;
 
+}
+
+.fucsia{
+    color: #d14887;
+}
+.azul{
+    color: #2a4a96;
+}
+
+.bg-fucsia{
+    background-color: #d14887;
+    color: white;    
+}
+
+.bg-azul{
+    background-color: #2a4a96;
+    color: white;    
+}
+
+.bg-fucsia-hover:hover{
+    background-color: #d14887;
+}
+
+.bg-azul-hover:hover{
+    background-color: #2a4a96;
 }
