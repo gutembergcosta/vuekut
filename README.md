@@ -2,7 +2,7 @@
   <h1 align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/3MC4BlT.png">
-      <img alt="VueKut" src="https://i.imgur.com/3MC4BlT.png">
+      <img alt="VueKut" width="600" src="https://i.imgur.com/3MC4BlT.png">
     </picture>
   </h1>
 </a>
