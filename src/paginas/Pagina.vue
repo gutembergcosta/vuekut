@@ -20,8 +20,5 @@
 			//Topo,
 		}
 	}
-    </script>
+</script>
 
-<style lang="scss" scoped>
-	.item{}
-</style>

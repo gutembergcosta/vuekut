@@ -2,7 +2,7 @@ html, body {
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     height: 100%;
-    background: #efefef;
+    background: #f3f6fd;
 }
 
 button{
@@ -38,4 +38,9 @@ button{
 
 .bg-azul-hover:hover{
     background-color: #2a4a96;
+}
+
+
+.input-login .p-password{
+	width: 100%;
 }
