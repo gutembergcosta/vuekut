@@ -11,7 +11,7 @@ button{
 }
 
 .pagina {
-    width: 1200px;
+    width: 1000px;
 
 }
 
@@ -51,4 +51,9 @@ button{
 
 .input-login .p-password{
 	width: 100%;
+}
+
+.area-login{
+	height: 100vh;
+	width: 90%;
 }
