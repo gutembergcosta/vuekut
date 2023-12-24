@@ -1,6 +1,6 @@
 <template>
 	<TopoDefault/>		
-	<div class="pagina mx-auto mt-4">
+	<div class="pagina mx-auto mt-3">
 		<div class="grid">
 			<SidebarInfo/>
 			<AreaPagina/>
