@@ -2,7 +2,7 @@
 
 	<div class="col-3 box-area" >
 		<div class="bg-white p-4 border-0 shadow-1 border-round-sm mb-4">
-			<a class="img-user bg-azul overflow-hidden mx-auto	 flex justify-content-center flex-wrap align-content-center fucsia-hover text-sm bg-azul border-circle" href="">
+			<a class="img-user surface-200 overflow-hidden mx-auto	 flex justify-content-center flex-wrap align-content-center fucsia-hover text-sm bg-azul border-circle" href="">
 				<img class="w-9 " src="@/assets/img/user.png"/>
 			</a>
 			<h4 class="text-center text-base">Nome do usuário</h4>
@@ -82,7 +82,7 @@
 		components : {
 			Divider, Badge
 		},
-			data(){
+		data(){
 		}
 	}
 
