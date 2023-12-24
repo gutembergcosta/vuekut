@@ -1,16 +1,16 @@
 <template>
 
-	<div class="pagina mx-auto pt-2">
-        <div class="grid">
-			<div class="col-3 flex flex-wrap align-content-center h-full">
+	<div class="pagina mx-auto pt-3">
+        <div class="grid topo-grid">
+			<div class="col-4 flex flex-wrap align-content-center h-full">
 				<div class="area-logo mr-3">
 					<img class="w-full" src="@/assets/img/logo.png"/>
 				</div>
 				
 			</div>
-			<div class="col-5 flex flex-wrap align-content-center justify-content-center h-full">
+			<div class="col-4 flex flex-wrap align-content-center justify-content-center h-full">
 
-				<div class="busca flex flex-wrap align-content-center ">
+				<div class="busca flex flex-wrap align-content-center">
 					<span class="p-input-icon-left">
 						<i class="pi pi-search" />
 						<InputText v-model="value1" placeholder="Search" />
@@ -55,4 +55,5 @@
 
 <style scoped lang="scss">
 	.area-logo{width: 180px;}
+	.topo-grid{height: 60px;}
 </style>

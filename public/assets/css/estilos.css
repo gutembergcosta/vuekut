@@ -3,11 +3,23 @@ html, body {
     margin: 0;
     height: 100%;
     background: #f3f6fd;
+    font-size: 14px;
+    color: #2d3135;
 }
 
 button{
     border: none;
     cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .pagina {
@@ -51,8 +63,6 @@ button{
 .borda-azul-hover:hover{
     border-color: #2a4a96!important;
 }
-
-
 .input-login .p-password{
 	width: 100%;
 }
