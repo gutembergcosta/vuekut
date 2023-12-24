@@ -36,6 +36,10 @@ button{
     background-color: #d14887!important;
 }
 
+.fucsia-hover:hover{
+    color: #d14887!important;
+}
+
 .bg-azul-hover:hover{
     background-color: #2a4a96!important;
 }

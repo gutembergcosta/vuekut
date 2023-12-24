@@ -1,7 +1,5 @@
 <template>
-	<div class="bg-azul">
-		<TopoDefault/>		
-	</div>
+	<TopoDefault/>		
 	<div class="pagina mx-auto mt-4">
 		<div class="grid">
 			<SidebarInfo/>
@@ -9,7 +7,6 @@
 			<SidebarData/>
 		</div>
 	</div>
-	
 </template>
 
 <script>
