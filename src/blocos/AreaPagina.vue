@@ -1,18 +1,18 @@
 <template>
 
 	<div class="col">
-		<div class="bg-primary">
-			AreaPagina
-		</div>
+		<CardPost/>
     </div>
 
 </template>
 
 <script>
+	import CardPost from '@/blocos/area-pagina/CardPost.vue'
 
 	export default {
 		name: 'AreaPagina',
 		components : {
+			CardPost
 		},
 		data(){
 		}

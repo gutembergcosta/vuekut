@@ -7,7 +7,7 @@ import '/node_modules/primeflex/primeflex.css';
 
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faPhone, faMoon, faEnvelope, faLock, faCog, faPenToSquare, faUserGroup, faUsersViewfinder } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faMoon, faEnvelope, faLock, faCog, faPenToSquare, faUserGroup, faUsersViewfinder, faImage, faArrowRight, faPaperclip, faHeart, faBookmark, faComment, faPaperPlane, faEllipsis } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { router } from './router/router'
 import PrimeVue from 'primevue/config';
@@ -16,7 +16,7 @@ const app = createApp(App);
 
 import App from '@/paginas/Pagina.vue'
 
-library.add([faPhone,faMoon, faEnvelope, faLock, faCog, faPenToSquare, faUserGroup, faUsersViewfinder]);
+library.add([faPhone,faMoon, faEnvelope, faLock, faCog, faPenToSquare, faUserGroup, faUsersViewfinder, faImage, faArrowRight, faPaperclip, faHeart, faBookmark, faComment, faPaperPlane, faEllipsis]);
 
 app
 .use(router)
