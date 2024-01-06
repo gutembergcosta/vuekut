@@ -19,14 +19,14 @@
 			</div>
 			<div class="col-4">
 				<div class="flex justify-content-end flex-wrap align-content-center h-full">
-					<a class="ml-2 azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
-						<font-awesome-icon icon="pen-to-square" />
+					<a class="icone-link ml-2 filtro-img-azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
+						<img class="" width="50" src="@/assets/icones/gear.png"/>
 					</a>
-					<a class="ml-2 azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
-						<font-awesome-icon icon="user-group" />
+					<a class="icone-link filtro-img-azul ml-2 azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
+						<img class="" width="50" src="@/assets/icones/gear.png"/>
 					</a>
-					<a class="ml-2 azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
-						<font-awesome-icon icon="users-viewfinder" />
+					<a class="icone-link ml-2 filtro-img-azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
+						<img class="" width="50" src="@/assets/icones/gear.png"/>
 					</a>
 					<a class="ml-2 azul flex justify-content-center flex-wrap align-content-center w-2rem h-2rem fucsia-hover text-sm bg-white border-circle" href="">
 						<img class="w-9 " src="@/assets/img/user.png"/>
@@ -56,4 +56,9 @@
 <style scoped lang="scss">
 	.area-logo{width: 180px;}
 	.topo-grid{height: 60px;}
+
+	.icone-link{
+		img{width: 18px;}
+	}
+		
 </style>

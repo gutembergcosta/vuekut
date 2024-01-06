@@ -13,8 +13,8 @@
                     </div>
                 </div>
                 <div class="w-2 flex justify-content-end" >
-                    <a class="btn-dd-options border-round-sm border-1 border-circle flex justify-content-end align-content-center text-600	border-400	" >
-                        <font-awesome-icon icon="ellipsis" class="m-auto"  />
+                    <a class="btn-dd-options filtro-img-azul border-round-sm border-1 border-circle border-400 flex	" >
+                        <img class="icone-menu-dot" src="@/assets/icones/menu-dot.png"/>
                     </a>
                 </div>
             </div>
@@ -30,28 +30,28 @@
         <footer>
             <Divider/>
             <div class="flex">
-                <div class="w-6 flex">
-                    <a  class="mr-2 flex align-items-center">
-                        <font-awesome-icon icon="heart" class="mr-1 text-500" />
+                <div class="w-6 flex icones">
+                    <a class="mr-2 flex align-items-center filtro-img-cinza" >
+                        <img class="mr-1" width="50" src="@/assets/icones/heart.png"/>
                         <small>99</small>
                     </a>
-                    <a class="mr-2 flex align-items-center">
-                        <font-awesome-icon icon="comment"  class="mr-1 text-500"/>
+                    <a class="mr-2 flex align-items-center filtro-img-cinza ">
+                        <img class="mr-1" width="50" src="@/assets/icones/comment.png"/>
                         <small>99</small>
                     </a>
-                    <a class="mr-2 flex align-items-center">
-                        <font-awesome-icon icon="paper-plane" class="mr-1 text-500" />
+                    <a class="mr-2 flex align-items-center filtro-img-cinza ">
+                        <img class="mr-1" width="50" src="@/assets/icones/paper-plane.png"/>
                         <small>99</small>
                     </a>
                 </div>
                 <div class="w-6 flex justify-content-end">
-                    <a class="mr-2 flex align-items-center">
-                        <font-awesome-icon icon="bookmark" class="mr-1 text-500" />
+                    <a class="mr-2 flex align-items-center filtro-img-cinza">
+                        <img class="icone-bookmark" src="@/assets/icones/bookmark.png"/>
                     </a>
                 </div>
             </div>
             <Divider/>
-            <div class="mb-4 mt-2 px-1 bg-form-texto border-round-lg	" >
+            <div class="mb-4 mt-2 px-1 bg-form-texto border-round-lg" >
                 <div class="flex p-3 justify-content-between align-content-center area-deck">
                     <div class="w-11 flex align-content-center h-full">
                         <TextForm 
@@ -68,7 +68,7 @@
                     <div class="w-1 h-full">
                         <div class="flex justify-content-end align-content-center h-full">            
                             <a class="bg-azul flex justify-content-center flex-wrap align-content-center btn-deck fucsia-hover text-sm border-circle" href="">
-                                <font-awesome-icon icon="arrow-right" />
+                                <img  class="filtro-white icone-send mx-auto" src="@/assets/icones/send.png"/>
                             </a>                            
                         </div>
                     </div>
@@ -217,13 +217,6 @@
 </script>
 
 <style scoped lang="scss">
-	.avatar-deck{
-		width: 50px;
-		height: 50px;
-	}
-	.area-btn{
-		width: 90px;
-	}
 
     .img-user{
         width: 42px;
@@ -233,18 +226,19 @@
     .btn-deck{
         width: 25px;
         height: 25px;
+        margin-top: 3px;
     }
-
-	.lista-sidebar-info{
-		li{ padding: 1px 0;}
-	}
-	.lista-sidebar-links{
-		a{ padding: 4px 0;}
-	}
 
     .btn-dd-options{
         width: 24px;
         height: 24px;
+        
+        img{
+            display: block;
+            margin: 3px auto 0;
+            width: 15px;
+            height:  fit-content;;
+        }
     } 
 
     .img-user-comentario{
@@ -254,5 +248,19 @@
 
     .bg-form-texto{
         background:#f0f0f1;
+    }
+
+    .icones{
+		img{
+            width: 17px;
+            
+        }
+	}
+
+    .icone-bookmark{
+        width: 18px;
+    }
+    .icone-send{
+        width: 15px;
     }
 </style>

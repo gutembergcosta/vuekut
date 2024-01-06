@@ -71,3 +71,21 @@ a{
 	height: 100vh;
 	width: 90%;
 }
+
+.filtro-azul, .filtro-img-azul img {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(12%) saturate(7336%) hue-rotate(202deg) brightness(92%) contrast(90%);
+}
+.filtro-fucsia, .filtro-img-fucsia img {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(58%) saturate(1723%) hue-rotate(305deg) brightness(86%) contrast(89%);
+}
+
+.filtro-cinza, .filtro-img-cinza img {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(14%) saturate(0%) hue-rotate(203deg) brightness(96%) contrast(78%);
+}
+
+.filtro-white, .filtro-img-white img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(127deg) brightness(101%) contrast(105%);
+}
+
+
+
