@@ -4,6 +4,7 @@ import Home from '@/paginas/Home.vue'
 import Item from '@/paginas/Item.vue'
 import Login from '@/paginas/Login.vue'
 import HomeUser from '@/paginas/HomeUser.vue'
+import Perfil from '@/paginas/Perfil.vue'
 
 
 const router = createRouter({
@@ -28,6 +29,11 @@ routes: [
         path: '/home-user',
         component: HomeUser,
         name: 'HomeUser',
+    },
+    {
+        path: '/perfil',
+        component: Perfil,
+        name: 'Perfil',
     },
 ]
 })

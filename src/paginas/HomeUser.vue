@@ -1,6 +1,6 @@
 <template>
 	<TopoDefault/>		
-	<div class="pagina mx-auto mt-3">
+	<div class="pagina mx-auto">
 		<div class="grid">
 			<SidebarInfo/>
 			<AreaPagina/>
@@ -15,7 +15,6 @@
 	import SidebarInfo from '@/blocos/SidebarInfo'
 	import SidebarData from '@/blocos/SidebarData'
 	import AreaPagina from '@/blocos/AreaPagina'
-
 
 	export default {
 		name: 'HomeUser',
