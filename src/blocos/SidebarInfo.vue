@@ -89,6 +89,10 @@
 </script>
 
 <style scoped lang="scss">
+
+	.box-area{
+		width: 220px;
+	}
 	.img-user{
 		width: 150px;
 		height: 150px;

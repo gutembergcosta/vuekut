@@ -21,7 +21,7 @@
         </header>
         <article class="my-3">
             <div class="featured-image">
-                <img class="w-full" src="@/assets/img/miniatura.png" alt="">
+                <img class="w-full" src="@/assets/img/miniatura-02.png" alt="">
             </div>
             <div class="texto">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus faucibus purus, quis semper justo tincidunt quis. Donec quis enim ac lectus cursus iaculis vel sed dolor. Praesent sagittis</p>
@@ -99,23 +99,23 @@
                     <footer>
                     <Divider/>
                         <div class="flex">
-                            <div class="w-6 flex">
-                                <a  class="mr-2 flex align-items-center">
-                                    <font-awesome-icon icon="heart" class="mr-1 text-500" />
+                            <div class="w-6 flex icones">
+                                <a class="mr-2 flex align-items-center filtro-img-cinza" >
+                                    <img class="mr-1" width="50" src="@/assets/icones/heart.png"/>
                                     <small>99</small>
                                 </a>
-                                <a class="mr-2 flex align-items-center">
-                                    <font-awesome-icon icon="comment"  class="mr-1 text-500"/>
+                                <a class="mr-2 flex align-items-center filtro-img-cinza ">
+                                    <img class="mr-1" width="50" src="@/assets/icones/comment.png"/>
                                     <small>99</small>
                                 </a>
-                                <a class="mr-2 flex align-items-center">
-                                    <font-awesome-icon icon="paper-plane" class="mr-1 text-500" />
+                                <a class="mr-2 flex align-items-center filtro-img-cinza ">
+                                    <img class="mr-1" width="50" src="@/assets/icones/paper-plane.png"/>
                                     <small>99</small>
                                 </a>
                             </div>
                             <div class="w-6 flex justify-content-end">
-                                <a class="mr-2 flex align-items-center">
-                                    <font-awesome-icon icon="bookmark" class="mr-1 text-500" />
+                                <a class="mr-2 flex align-items-center filtro-img-cinza">
+                                    <img class="icone-bookmark" src="@/assets/icones/bookmark.png"/>
                                 </a>
                             </div>
                         </div>

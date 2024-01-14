@@ -2,7 +2,7 @@
 
     <div class="bg-white p-2 border-0 shadow-1 border-round-sm mb-4">
         <div class="flex justify-content-between flex-wrap">
-            <h4 class="mt-1 mb-3 p-0">Amigos</h4>
+            <h4 class="mt-1 mb-3 p-0 fucsia">Amigos</h4>
             <a href="" class="azul">ver todos</a>
         </div>
         <div class="grid">

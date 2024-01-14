@@ -2,9 +2,11 @@ html, body {
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     height: 100%;
-    background: #f3f6fd;
     font-size: 14px;
     color: #2d3135;
+    background-size: 100% 200%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(117deg, #fcebf2 0%, rgb(238, 242, 250) 49%, rgb(219, 228, 250) 100%);
 }
 
 button{
@@ -56,11 +58,11 @@ a{
     background-color: #2a4a96!important;
 }
 
-.borda-fucsia-hover:hover{
+.borda-fucsia, .borda-fucsia-hover:hover{
     border-color: #d14887!important;
 }
 
-.borda-azul-hover:hover{
+.borda-azul,.borda-azul-hover:hover{
     border-color: #2a4a96!important;
 }
 .input-login .p-password{
