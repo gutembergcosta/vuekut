@@ -71,20 +71,10 @@
 
 </template>
 
-<script>
+<script setup>
 
 	import Divider from 'primevue/divider';
 	import Badge from 'primevue/badge';
-
-
-	export default {
-		name: 'SidebarInfo',
-		components : {
-			Divider, Badge
-		},
-		data(){
-		}
-	}
 
 </script>
 

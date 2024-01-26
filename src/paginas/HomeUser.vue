@@ -9,19 +9,21 @@
 	</div>
 </template>
 
-<script>
+<script setup>
 
 	import TopoDefault from '@/blocos/TopoDefault'
 	import SidebarInfo from '@/blocos/SidebarInfo'
 	import SidebarData from '@/blocos/SidebarData'
 	import AreaPagina from '@/blocos/AreaPagina'
 
+	/*
 	export default {
 		name: 'HomeUser',
 		components: {
 			TopoDefault,AreaPagina,SidebarInfo,SidebarData,
 		}
 	}
+	*/
 
 </script>
 

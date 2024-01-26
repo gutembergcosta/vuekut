@@ -20,15 +20,17 @@
 
 </template>
 
-<script>
+<script setup>
 import Menu from '@/blocos/Menu'
 
+/*
 export default {
     name: 'Home',
     components: {
         Menu
     }
 }
+*/
 </script>
 
 <style scoped>

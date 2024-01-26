@@ -60,20 +60,13 @@
 
 </template>
 
-<script>
+<script setup >
 
-	export default {
-		name: 'ListaAmigos',
-		components : {
-		},
-		data(){
-		}
-	}
+	
 
 </script>
 
 <style scoped lang="scss">
-	.box-area{width: 300px;}
 	.img-user{
 		width: 70px;
 		height: 70px;

@@ -1,4 +1,4 @@
-npm<template>
+<template>
 	<TopoDefault/>		
 	<div class="pagina mx-auto mt-3">
 		<div class="grid">
@@ -16,7 +16,7 @@ npm<template>
 	</div>
 </template>
 
-<script>
+<script setup>
 
 	import TopoDefault from '@/blocos/TopoDefault'
 	import SidebarInfo from '@/blocos/SidebarInfo'
@@ -24,19 +24,6 @@ npm<template>
 	import AreaPaginaPerfil from '@/blocos/AreaPaginaPerfil'
 	import TopoPerfilUser from '@/blocos/TopoPerfilUser'
 	import NavbarPerfil from '@/blocos/NavbarPerfil'
-
-
-	export default {
-		name: 'Perfil',
-		components: {
-			TopoDefault,
-			AreaPaginaPerfil,
-			SidebarInfo,
-			SidebarPerfil,
-			TopoPerfilUser,
-			NavbarPerfil,
-		}
-	}
 
 </script>
 

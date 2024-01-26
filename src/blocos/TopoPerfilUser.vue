@@ -22,15 +22,9 @@
     
 </template>
 
-<script>
+<script setup>
 //import Menu from '@/blocos/Menu'
 
-export default {
-    name: 'TopoPerfilUser',
-    components: {
-        
-    }
-}
 </script>
 
 <style scoped>

@@ -90,11 +90,11 @@
 
 </template>
 
-<script>
+<script setup >
 
 	//import Divider from 'primevue/divider';
 
-
+    /*
 	export default {
 		name: 'BoxPerfil',
 		components : {
@@ -103,6 +103,7 @@
 		data(){
 		}
 	}
+    */
 
 </script>
 

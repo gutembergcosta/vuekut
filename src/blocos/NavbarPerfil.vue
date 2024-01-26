@@ -13,16 +13,11 @@
     </div>    
 </template>
 
-<script>
+<script setup>
 import ButtonBase from 'primevue/button';
 
 
-export default {
-    name: 'NavbarPerfil',
-    components: {
-        ButtonBase
-    }
-}
+
 </script>
 
 <style scoped>

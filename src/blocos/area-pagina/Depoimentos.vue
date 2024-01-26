@@ -46,20 +46,11 @@
 
 </template>
 
-<script>
+<script setup >
 
 	import Divider from 'primevue/divider';
     import ButtonBase from 'primevue/button';
 
-
-	export default {
-		name: 'FormDeck',
-		components : {
-            Divider,ButtonBase
-		},
-		data(){
-		}
-	}
 
 </script>
 

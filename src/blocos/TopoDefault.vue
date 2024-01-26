@@ -37,18 +37,10 @@
 
 </template>
 
-<script>
+<script setup>
 
 	import InputText from 'primevue/inputtext';
 
-	export default {
-		name: 'TopoDefault',
-		components : {
-			InputText
-		},
-		data(){
-		}
-	}
 
 </script>
 

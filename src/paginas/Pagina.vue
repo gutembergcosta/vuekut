@@ -12,13 +12,7 @@
 	
 </template>
 
-<script>
-	//import Topo from '@/paginas/blocos/Topo.vue'
-	export default {
-		name: 'Exemplo',
-		components : {
-			//Topo,
-		}
-	}
+<script setup>
+	
 </script>
 

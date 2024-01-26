@@ -32,20 +32,11 @@
     </div>
 </template>
 
-<script>
+<script setup >
 
     import TextForm from 'primevue/textarea';
     import ActionButton from 'primevue/button';
 
-
-	export default {
-		name: 'FormDeck',
-		components : {
-            TextForm,ActionButton
-		},
-		data(){
-		}
-	}
 
 </script>
 

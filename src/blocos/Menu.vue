@@ -5,10 +5,8 @@
     </nav>
 </template>
 
-<script>
-    export default {
-        name: 'Menu'
-    }
+<script setup>
+  
 </script>
 
 <style scoped>

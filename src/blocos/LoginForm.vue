@@ -54,26 +54,14 @@
 
 </template>
 
-<script>
+<script setup>
 
 	import InputText from 'primevue/inputtext';
 	import Password from 'primevue/password';
 	import BtnDefault from 'primevue/button';
 
-	export default {
-		name: 'LoginForm',
-		components : {
-			InputText,
-			Password,
-			BtnDefault
-		},
-		data(){
-			return {
-				email : '',
-				senha : '',
-			}
-		}
-	}
+	const email = 'email@email.com.br';
+	const senha = '010203';
 
 </script>
 

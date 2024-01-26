@@ -13,11 +13,8 @@
 	
 </template>
 
-<script>
+<script setup>
 
-	export default {
-		name: 'LoginLogo',
-	}
 
 </script>
 

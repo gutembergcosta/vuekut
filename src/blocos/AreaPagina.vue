@@ -7,18 +7,9 @@
 
 </template>
 
-<script>
+<script setup >
 	import CardPost from '@/blocos/area-pagina/CardPost.vue'
 	import FormDeck from '@/blocos/area-pagina/FormDeck.vue'
-
-	export default {
-		name: 'AreaPagina',
-		components : {
-			CardPost,FormDeck
-		},
-		data(){
-		}
-	}
 
 </script>
 

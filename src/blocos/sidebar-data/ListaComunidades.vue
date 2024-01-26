@@ -60,15 +60,8 @@
 
 </template>
 
-<script>
+<script setup >
 
-	export default {
-		name: 'ListaComunidades',
-		components : {
-		},
-		data(){
-		}
-	}
 
 </script>
 

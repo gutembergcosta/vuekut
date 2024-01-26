@@ -7,19 +7,10 @@
 
 </template>
 
-<script>
+<script setup>
 
 	import ListaAmigos from '@/blocos/sidebar-data/ListaAmigos.vue'
 	import ListaComunidades from '@/blocos/sidebar-data/ListaComunidades.vue'
-
-	export default {
-		name: 'SidebarData',
-		components : {
-			ListaAmigos,ListaComunidades
-		},
-		data(){
-		}
-	}
 
 </script>
 
